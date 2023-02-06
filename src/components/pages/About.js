@@ -3,7 +3,7 @@ import "../../App.css";
 
 export default function About() {
   return (
-    <div className="about">
+    <div className="sobre">
       <div>
         <h1>¿Qué es Uphill Coaching?</h1>
 
