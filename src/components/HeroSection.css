@@ -28,8 +28,15 @@ video {
   margin-top: 8px;
   color: #fff;
   font-size: 32px;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
-    'Lucida Sans', Arial, sans-serif;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.botones {
+  background-color: #000000;
+  color: #ffffff;
+  padding: 8px 20px;
+  transition: all 0.3s ease-out;
 }
 
 .hero-btns {

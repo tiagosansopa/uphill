@@ -32,8 +32,8 @@ function Navbar() {
         <div className="navbar-container">
           <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
             <img
-              style={{ width: "auto", height: "80px " }}
-              src={"images/logoB.png"}
+              style={{ width: "auto", height: "60px " }}
+              src={"images/logo/logoB.png"}
             ></img>
           </Link>
 
@@ -44,13 +44,13 @@ function Navbar() {
           <ul className={click ? "nav-menu active" : "nav-menu"}>
             <li className="nav-item">
               <Link to="/about" className="nav-links" onClick={closeMobileMenu}>
-                About
+                Sobre nosotros
               </Link>
             </li>
 
             <li className="nav-item">
               <Link to="/plans" className="nav-links" onClick={closeMobileMenu}>
-                Plans
+                Entrenamiento
               </Link>
             </li>
 
@@ -60,17 +60,7 @@ function Navbar() {
                 className="nav-links"
                 onClick={closeMobileMenu}
               >
-                Community
-              </Link>
-            </li>
-
-            <li className="nav-item">
-              <Link
-                to="/products"
-                className="nav-links"
-                onClick={closeMobileMenu}
-              >
-                Corp
+                Comunidad y eventos
               </Link>
             </li>
 
@@ -94,21 +84,26 @@ function Navbar() {
               </Link>
             </li>
 
-            <li className="nav-item">
-              <Link to="/" className="nav-links" onClick={handleCart}>
-                <i
-                  className="fa fa-shopping-cart fa-bars "
-                  aria-hidden="true"
-                ></i>
-              </Link>
-            </li>
+            {button && (
+              <li className="nav-links">
+                <Button
+                  buttonStyle="btn--plans"
+                  buttonSize="btn--large"
+                  route="/sign-up"
+                >
+                  Agenda tu entrevista
+                </Button>
+              </li>
+            )}
           </ul>
-          {button && (
-            <Button buttonStyle="btn--outline">Agenda tu entrevista</Button>
-          )}
 
+          <div className="nav-links" onClick={handleCart}>
+            <i className="fa fa-shopping-cart fa-bars " aria-hidden="true"></i>
+          </div>
           <ul className={cart ? "cart-menu active" : "cart-menu"}>
-            <li className="cart-item">No tienes nada agregado.</li>
+            <li className={cart ? "cart-item active" : "cart-item"}>
+              No tienes nada agregado.
+            </li>
           </ul>
         </div>
       </nav>

@@ -2,21 +2,12 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: "PT Sans", sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 .home,
 .sign-up,
-.plans,
 .community {
-  display: flex;
-  height: 90vh;
-  align-items: center;
-  justify-content: center;
-  font-size: 3rem;
-}
-
-.sobre {
   display: flex;
   height: 90vh;
   align-items: center;
@@ -40,26 +31,6 @@
   text-align: center;
 }
 
-.sobre {
-  background-image: url("/images/1.jpg");
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  display: flex;
-  flex-direction: column;
-  justify-content: start;
-}
-
-.plans {
-  background-image: url("/images/3.jpg");
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  display: flex;
-  flex-direction: column;
-  justify-content: start;
-}
-
 .community {
   background-image: url("/images/4.jpeg");
   background-position: center;
@@ -76,52 +47,22 @@
   margin: 10%;
 }
 
-.plans div {
-  background-color: #ffffff69;
-  margin: 10%;
-}
-
-.sobre div {
-  background-color: #ffffff69;
-  margin: 10%;
-}
-
 .about,
 .community h1 {
-  color: #000000;
+  color: #16222e;
   font-size: 100px;
   margin-top: 5%;
 }
 
-.plans h1 {
-  color: #000000;
-  font-size: 100px;
-}
-
-.sobre.plans,
-h1 {
-  color: #000000;
-  font-size: 100px;
-  margin-top: 5%;
-}
-
-.about,
-.community.plans,
 p {
-  color: #000000;
+  color: #16222e;
   font-size: 40px;
   margin: 5% 20%;
   text-align: center;
 }
 
 .sobre {
-  color: #000000;
-  font-size: 40px;
-  text-align: center;
-}
-
-.plans {
-  color: #000000;
+  color: #16222e;
   font-size: 40px;
   text-align: center;
 }

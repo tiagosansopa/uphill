@@ -6,7 +6,7 @@ import "./HeroSection.css";
 function HeroSection() {
   return (
     <div className="hero-container">
-      <video src="/videos/video-1.mp4" autoPlay loop muted />
+      <video src="/videos/hero.mp4" autoPlay loop muted />
       <h1>Uphill Coaching</h1>
       <p>
         Caminando siempre hacia arriba sin importar que tan dificil sea el
@@ -15,19 +15,27 @@ function HeroSection() {
       <div className="hero-btns">
         <Button
           className="btns"
-          buttonStyle="btn--outline"
+          buttonStyle="btn--main"
           buttonSize="btn--large"
+          route="/about"
         >
-          Conoce
+          Conócenos
         </Button>
         <Button
           className="btns"
-          buttonStyle="btn--outline"
+          buttonStyle="btn--main"
           buttonSize="btn--large"
-          onClick={console.log("hey")}
+          route="/plans"
         >
-          Agenda tu cita
-          <i className="far fa-play-circle" />
+          Entrena con Nosotros
+        </Button>
+        <Button
+          className="btns"
+          buttonStyle="btn--main"
+          buttonSize="btn--large"
+          route="/community"
+        >
+          Comunidad
         </Button>
       </div>
     </div>

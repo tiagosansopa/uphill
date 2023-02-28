@@ -5,61 +5,42 @@ import CardItem from "./CardItem";
 function Cards() {
   return (
     <div className="cards">
-      <h1>Vive la experiencia!</h1>
+      <h1>Latest News!</h1>
       <div className="cards__container">
         <div className="cards__wrapper">
           <ul className="cards__items">
             <CardItem
-              src="images/1.jpg"
-              text="Conoce los lugares mas impresionantes para correr"
-              label="Aventura"
-              path="/services"
+              src="images/landing/min_1.png"
+              text="¿Cómo programar entrenos en mi Garmin? En menos de 5 min !!"
+              label="Youtube"
+              path="/"
             />
             <CardItem
-              src="images/2.jpg"
-              text="Distruta los bonitos paisajes."
-              label="Paisajes"
-              path="/services"
+              src="images/landing/min_2.png"
+              text="Oso negro 70k! Experiencia de mi primer Ultra Maratón"
+              label="Youtube"
+              path="/"
             />
             <CardItem
-              src="images/3.jpg"
-              text="Corre con amigos"
-              label="Amistad"
-              path="/services"
-            />
-          </ul>
-          <ul className="cards__items">
-            <CardItem
-              src="images/4.jpeg"
-              text="Pertenece la una comunidad amistosa de amistad con amigos amistosos."
-              label="Comunidad"
-              path="/products"
-            />
-            <CardItem
-              src="images/5.jpg"
-              text="Vale verga pero vive feliz con tus logros"
-              label="Verga"
-              path="/sign-up"
-            />
-            <CardItem
-              src="images/6.jpg"
-              text="Agua no hay pero esta foto esta bonita"
-              label="Paz y Calma"
-              path="/sign-up"
+              src="images/landing/min_3.png"
+              text="No olvides llevar este equipo en una Ultra Maratón "
+              label="Youtube"
+              path="/"
             />
           </ul>
+
           <ul className="cards__items">
             <CardItem
-              src="images/7.jpg"
-              text="Sientete realizado por primera vez en tu vida"
-              label="Zangano"
-              path="/products"
+              src="images/landing/min_4.jpeg"
+              text="Gabriel Bianchi en CCC 100k vy UTMB! Septiembre 2023"
+              label="Carrera"
+              path="/"
             />
             <CardItem
-              src="images/8.jpg"
-              text="Pero foto muy bonita"
-              label="Esto tampoco"
-              path="/sign-up"
+              src="images/landing/mvmnt.jpg"
+              text="Uphill + MVMNT bRUNch 18 de febrero "
+              label="Evento"
+              path="/"
             />
           </ul>
         </div>
