@@ -1,0 +1,96 @@
+.coach-container {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  max-width: 1120px;
+  width: 90%;
+  margin: 0 auto;
+  color: #16222e;
+}
+
+.coach-header {
+  width: 100%;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  object-fit: contain;
+  color: #16222e;
+}
+
+.coach-header > h1 {
+  color: #fff;
+  font-size: 80px;
+}
+.cover-2 {
+  background: url(/images/about/cover_2.jpg) fixed no-repeat;
+  backface-visibility: visible;
+  background-size: 100%;
+  background-position-y: -930px;
+  background-position-x: center;
+}
+
+.coach-card {
+  margin: 100px auto;
+}
+
+.race-slide {
+  margin: auto;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+}
+
+.race-row {
+  margin: auto;
+  display: flex;
+}
+
+.race-data {
+  margin: 10px auto auto auto;
+  padding: 20px;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.race-data > h1 {
+  margin: 5px auto 30px auto;
+}
+
+.race-data > p {
+  margin: 5px auto 5px auto;
+  font-size: 15px;
+}
+
+.race-img > img {
+  padding: 40px;
+}
+
+.race-sum {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.race-fact {
+  min-height: 200px;
+  min-width: 50px;
+  padding: 40px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.race-fact > h2 {
+  color: #ff1616;
+  font-size: 50px;
+}
+
+.race-fact > p {
+  color: #16222e;
+  font-size: 30px;
+}

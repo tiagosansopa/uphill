@@ -1,13 +1,13 @@
 import React from "react";
-import Navbar from "./components/Navbar";
-import "./App.css";
-import Home from "./components/pages/Home";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import Plans from "./components/pages/Plans";
-import About from "./components/pages/About";
-import SignUp from "./components/pages/SignUp";
-import Community from "./components/pages/Community";
-import Footer from "./components/Footer";
+import Home from "./pages/Home";
+import About from "./pages/About";
+import Plans from "./pages/Plans";
+import Community from "./pages/Community";
+import Coach from "./pages/Coach";
+import SignUp from "./pages/SignUp";
+import Navbar from "./sections/Navbar";
+import Footer from "./sections/Footer";
 
 function App() {
   return (
@@ -16,6 +16,7 @@ function App() {
       <Switch>
         <Route path="/" exact component={Home} />
         <Route path="/about" component={About} />
+        <Route path="/coach" component={Coach} />
         <Route path="/plans" component={Plans} />
         <Route path="/community" component={Community} />
         <Route path="/sign-up" component={SignUp} />
